@@ -518,9 +518,9 @@ function Homepage() {
     <div id="main">
       <header className="header">
         <h2>Hash/Hub</h2>
-        <a href="/login"><button className="print-button">
+        {/* <a href="/login"><button className="print-button">
                 Login
-              </button></a>
+              </button></a> */}
 
         <h1>
           📄<span>Resume Maker </span>{" "}
@@ -850,4 +850,4 @@ function Homepage() {
 }
 
 export default Homepage;
-//Vedant Jain Code Officially
+
