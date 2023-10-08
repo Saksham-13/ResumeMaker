@@ -525,12 +525,7 @@ function Homepage() {
         <h1>
           📄<span>Resume Maker </span>{" "}
         </h1>
-        {/* <div className="right">
-          <a href="https://github.com/vedant-jain03/Resume-Maker">Contribute</a>
-          <a href="https://github.com/vedant-jain03/Resume-Maker">
-            Give us star
-          </a>
-        </div> */}
+
       </header>
       <main className="maincomponent">
         <div className="left">

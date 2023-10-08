@@ -1,6 +1,5 @@
 {
   "name": "resume_maker",
-  "homepage": "https://vedant-jain03.github.io/Resume-Maker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
