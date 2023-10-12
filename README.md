@@ -53,6 +53,10 @@ We welcome contributions from the community! If you'd like to contribute to the 
 ### Pull Requests
 
 - Make a pull request as soon as you are assigned to as issue, this pull request will be used to track your progress on the issue by commits.
+ 
+- Be sure to link the issue in your pull request description using the `#` symbol followed by the issue number. For example, `#1` links to issue #1.
+
+- Use meaningful commit messages to clearly describe your changes and contributions. Refer to the [Commit Message Guidelines](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 
 ### Commit Frequency
 
