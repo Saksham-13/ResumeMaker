@@ -24,6 +24,16 @@ function Edu({number,edu,setedu,school,course,from,to,ach,id}){
                 value={course} onChange={e=>updateData(id,'course',e.target.value)}/>
             </div>
             <div className="input-box">
+                <span className="details">CGPA</span>
+                <input
+                    type="text"
+                    placeholder="CGPA"
+                    value={cgpa}
+                    onChange={(e) => updateData(id, 'cgpa', e.target.value)}
+                />
+
+            </div>
+            <div className="input-box">
                 <span className="details">From</span>
                 <input type="text" placeholder="Your Subtitle" style={{ width: '50%', marginLeft: '1.3rem' }} value={from} onChange={e=>updateData(id,'from',e.target.value)}/>
                 <span className="details" style={{ marginLeft: '1rem', width: '20%' }} >To</span>
