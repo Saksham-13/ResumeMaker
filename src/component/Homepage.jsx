@@ -258,19 +258,20 @@ function Homepage() {
   const [primary, setprimary] = useState("");
   const [secondary, setsecondary] = useState("");
   const themeList = [
-    ["#34678c", "rgb(242, 100, 100)"],
-    ["#2b273f", "#7cff81"],
-    ["black", "#cddc39"],
-    ["rgb(0 150 151)", "#ff9800"],
-    ["rgb(70 88 178)", "#91c1dc"],
-    ["rgb(38 70 83)", "#2a9d8f"],
-    ["rgb(188 108 37)", "#dda15e"],
-    ["rgb(0 48 73)", "#d62828"],
-    ["rgb(140 47 57)", "#b23a48"],
+    ["#348c", "rgb(84, 60, 100)"],
+    ["#2b273f", "#7cf991"],
+    ["black", "#cddc89"],
+    ["rgb(0 1 151)", "#ff6800"],
+    ["rgb(100 99 178)", "#9fdc"],
+    ["rgb(38 55 83)", "#4a9d8f"],
+    ["rgb(188 1 37)", "#dda15e"],
+    ["rgb(0 100 73)", "#d628"],
+    
+    ["rgb(140 23 57)","#c49" ,
   ];
   const [themes, setthemes] = useState(themeList);
-  const [picker1Color, setPicker1Color] = useState("#34678c");
-  const [picker2Color, setPicker2Color] = useState("rgb(242, 100, 100)");
+  const [picker1Color, setPicker1Color] = useState("#34238c");
+  const [picker2Color, setPicker2Color] = useState("rgb(2, 100, 100)");
   const [anchorEl, setAnchorEl] = useState(null);
   const [activeColor, setActiveColor] = useState(0);
   const handleClickPopover = (event) => {
