@@ -267,7 +267,7 @@ function Homepage() {
     ["rgb(188 1 37)", "#dda15e"],
     ["rgb(0 100 73)", "#d628"],
     
-    ["rgb(140 23 57)","#c49" ,
+    ["rgb(140 73 57)","#c49" ,
   ];
   const [themes, setthemes] = useState(themeList);
   const [picker1Color, setPicker1Color] = useState("#34238c");
