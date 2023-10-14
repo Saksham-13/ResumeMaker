@@ -333,7 +333,7 @@
     justify-content: space-between;
 }
 .up .theme{
-    color: white;
+    color: rgb(217, 18, 58);
     display: flex;
     align-items: baseline;
     border-radius: 10px;
@@ -347,12 +347,12 @@
     border-radius: 50%;
     background: linear-gradient(
 45deg
-, #34678c, #f26496);
+, #a5c00f, #223ebc);
 }
 .up .theme .active,
 .colors-active{
-    border: 3px solid #34678c;
-    box-shadow: 0 0 5px 1px #34678c;
+    border: 3px solid #2caa52;
+    box-shadow: 0 0 5px 1px #f64c03;
 }
 /* footer */
 .footer {
