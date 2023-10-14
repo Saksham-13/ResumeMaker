@@ -111,6 +111,7 @@ export class ComponentToPrint extends React.PureComponent {
                                         <p style={{ fontSize: '13px', color: 'gray', fontWeight: '600', marginLeft: '1rem', fontStyle: 'italic' }} className="fromto">
                                             {this.props.edu[education].from} - {this.props.edu[education].to}
                                         </p>
+                                        <h2 style={{ fontSize: '1rem', fontWeight: '400' }}>cgpa: {this.props.edu[education].cgpa}</h2>
                                         <h5 style={{ fontWeight: '400' }}>Achievements:</h5>
                                         <p style={{}} >- {this.props.edu[education].ach}</p>
                                     </div>
