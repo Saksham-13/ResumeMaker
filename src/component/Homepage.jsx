@@ -51,16 +51,18 @@ function Homepage() {
   const [portfolio, setportfolio] = useState("");
   //Experiecne Hooks
   //experience 1
-  const setPhoto = (e) => {
-    const file = e.target.files[0];
-    const fileReader = new FileReader();
+  // const setPhoto = (e) => {
+  //   console.log(e.target.files[0])
+  //   //const file = e.target.files[0];
+    
+  //   const fileReader = new FileReader();
 
-    fileReader.addEventListener("load", (result) => {
-      setphotourl(fileReader.result);
-    });
+  //   fileReader.addEventListener("load", (result) => {
+  //     setphotourl(fileReader.result);
+  //   });
 
-    fileReader.readAsDataURL(file);
-  };
+  //   fileReader.readAsDataURL(file);
+  // };
 
   const [exp, setexp] = useState({
     postname: "",
@@ -257,7 +259,8 @@ function Homepage() {
   //Theme Hooks
   const [primary, setprimary] = useState("");
   const [secondary, setsecondary] = useState("");
-  const themeList = [
+  const themeList = 
+    [
     ["#348c", "rgb(84, 60, 100)"],
     ["#2b273f", "#7cf991"],
     ["black", "#cddc89"],
@@ -267,8 +270,10 @@ function Homepage() {
     ["rgb(188 1 37)", "#dda15e"],
     ["rgb(0 100 73)", "#d628"],
     
-    ["rgb(140 73 57)","#c49" ,
-  ];
+    ["rgb(140 73 57)","#c489"] ,
+    ];
+    
+  
   const [themes, setthemes] = useState(themeList);
   const [picker1Color, setPicker1Color] = useState("#34238c");
   const [picker2Color, setPicker2Color] = useState("rgb(2, 100, 100)");
@@ -572,7 +577,7 @@ function Homepage() {
           {nav === "info" ? (
             <Info
               photourl={photourl}
-              setphotourl={setPhoto}
+              //setphotourl={setPhoto}
               name={name}
               setname={setname}
               subtitle={subtitle}
